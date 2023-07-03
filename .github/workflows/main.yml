@@ -17,7 +17,6 @@ jobs:
 
       - name: Add date and push
         run: |
-          cd cron-test2
           date >> date.txt
           current_date=date
           git add .
